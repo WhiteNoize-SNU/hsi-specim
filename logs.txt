@@ -1,0 +1,385 @@
+Device selection
+
+Detecting devices.
+   Realtek PCIe GbE Family Controller 7c:10:c9:24:f3:e5
+[0]	FX10e 70:f8:e7:b0:11:9e [169.254.101.16]
+   Bluetooth Device (Personal Area Network) ec:2e:98:e0:73:60
+   MediaTek Wi-Fi 6 MT7921 Wireless LAN Card ec:2e:98:e0:73:61
+   Microsoft Wi-Fi Direct Virtual Adapter ee:2e:98:e0:73:21
+   Microsoft Wi-Fi Direct Virtual Adapter #2 ee:2e:98:e0:73:31
+   USB xHCI 규격 호스트 컨트롤러
+   USB xHCI 규격 호스트 컨트롤러
+[1] to abort
+[2] to search again
+
+Enter your action or device selection?
+>Invalid key pressed. Exiting
+Press any key to exit
+Device selection
+
+Detecting devices.
+   Realtek PCIe GbE Family Controller 7c:10:c9:24:f3:e5
+[0]	FX10e 70:f8:e7:b0:11:9e [169.254.101.16]
+   Bluetooth Device (Personal Area Network) ec:2e:98:e0:73:60
+   MediaTek Wi-Fi 6 MT7921 Wireless LAN Card ec:2e:98:e0:73:61
+   Microsoft Wi-Fi Direct Virtual Adapter ee:2e:98:e0:73:21
+   Microsoft Wi-Fi Direct Virtual Adapter #2 ee:2e:98:e0:73:31
+   USB xHCI 규격 호스트 컨트롤러
+   USB xHCI 규격 호스트 컨트롤러
+[1] to abort
+[2] to search again
+
+Enter your action or device selection?
+>GenICamParamenter sample
+
+1. Communication link parameters display
+Using non-connected PvDevice
+Retrieving communication link parameters array
+Dumping communication link parameters array content
+
+Array has 35 parameters
+Root\Communication:PreferredTransport, Enum: UDP
+Root\Communication:AnswerTimeout, Integer: 1000
+Root\Communication:CommandRetryCount, Integer: 3
+Root\Communication:DefaultMCTT, Integer: 400
+Root\Communication:DefaultMCRC, Integer: 3
+Root\Communication:ReadMemPacketSize, Integer: 552
+Root\Communication:WriteMemPacketSize, Integer: 552
+Root\Connection:IPAddress, {Not Available}
+Root\Connection:CommandTransport, {Not Available}
+Root\Connection:CommandPort, {Not Available}
+Root\Connection:MessagingTransport, {Not Available}
+Root\Connection:MessagingPort, {Not Available}
+Root\Connection:ForcedCommandPortEnabled, Boolean: FALSE
+Root\Connection:ForcedCommandPort, {Not Available}
+Root\Connection:ForcedMessagingPortEnabled, Boolean: FALSE
+Root\Connection:ForcedMessagingPort, {Not Available}
+Root\Heartbeat:HeartbeatInterval, Integer: 1500
+Root\Heartbeat:DefaultHeartbeatTimeout, Integer: 5000
+Root\Heartbeat:DisconnectOnAnyTimeout, Boolean: FALSE
+Root\Statistics:StatisticsReset, {Not Readable}
+Root\Statistics:CommandPendingAcknowledges, Integer: 0
+Root\Statistics:CommandRetries, Integer: 0
+Root\Statistics:CommandRetriesMax, Integer: 0
+Root\Statistics:CommandSendFailures, Integer: 0
+Root\Statistics:MessagingRetries, Integer: 0
+Root\Statistics:MessagingRetriesMax, Integer: 0
+Root\Statistics:MessagingAckSendFailures, Integer: 0
+Root\StreamingPacketSize:AutoNegotiation, Boolean: TRUE
+Root\StreamingPacketSize:DefaultPacketSize, {Not Available}
+Root\DeviceGenICamXMLAccess:DeviceGenICamXMLLocation, Enum: Default
+Root\DeviceGenICamXMLAccess:DeviceGenICamXMLFile, {Not Available}
+Root\DeviceGenICamXMLAccess:DeviceGenICamXMLFileValid, {Not Available}
+Root\DeviceGenICamXMLAccess:UseManifests, Boolean: FALSE
+Root\Recovery:LinkRecoveryEnabled, Boolean: FALSE
+Root\Recovery:RecoveryStatus, Enum: StatusOK
+
+2. Device parameters display
+
+Connecting device
+Retrieving device's parameters array
+Dumping device's parameters array content
+
+Array has 445 parameters
+Root\DeviceControl:DeviceType, Enum: Transmitter
+Root\DeviceControl:DeviceScanType, Enum: Areascan
+Root\DeviceControl:DeviceVendorName, String: Specim
+Root\DeviceControl:DeviceModelName, String: FX10e
+Root\DeviceControl:DeviceManufacturerInfo, String: Specim
+Root\DeviceControl:DeviceVersion, String: Version 1.3
+Root\DeviceControl:DeviceFirmwareVersion, String: Version 1.2 build: 4
+Root\DeviceControl:DeviceSerialNumber, String: 077000062874
+Root\DeviceControl:DeviceID, String: 077000062874
+Root\DeviceControl:DeviceUserID, String:  
+Root\DeviceControl:DeviceLinkSpeed, Integer: 1000
+Root\DeviceControl:DeviceLinkHeartbeatTimeout, Integer: 5000
+Root\DeviceControl:DeviceStreamChannelCount, Integer: 1
+Root\DeviceControl:DeviceStreamChannelEndianness, Enum: Little
+Root\DeviceControl:DeviceStreamChannelPacketSize, Integer: 8228
+Root\DeviceControl:DeviceEventChannelCount, Integer: 1
+Root\DeviceControl:DeviceReset, {Not Readable}
+Root\DeviceControl:DeviceTemperatureSelector, Enum: ProcPCB
+Root\DeviceControl:DeviceTemperature, Float: 44.5
+Root\DeviceControl:DeviceTemperatureLowLimit, Float: 70.0
+Root\DeviceControl:DeviceTemperatureHighLimit, Float: 80.0
+Root\DeviceControl:DeviceTemperatureAlert, Boolean: FALSE
+Root\DeviceControl:DeviceTemperatureUpdate, {Not Readable}
+Root\DeviceControl:Temperature_FPGAMin, Float: 39.69024658203125
+Root\DeviceControl:Temperature_FPGAMax, Float: 56.12396240234375
+Root\DeviceControl\PowerDown:PowerDown_Status, Enum: Normal
+Root\DeviceControl\PowerDown:PowerDown_Update, {Not Readable}
+Root\ImageFormatControl:SensorWidth, Integer: 1312
+Root\ImageFormatControl:SensorHeight, Integer: 1082
+Root\ImageFormatControl:WidthMax, Integer: 1312
+Root\ImageFormatControl:HeightMax, Integer: 541
+Root\ImageFormatControl:WidthInterface, Integer: 1024
+Root\ImageFormatControl:HeightInterface, Integer: 224
+Root\ImageFormatControl:Width, Integer: 1024
+Root\ImageFormatControl:Height, Integer: 224
+Root\ImageFormatControl:OffsetX, Integer: 0
+Root\ImageFormatControl:OffsetY, Integer: 267
+Root\ImageFormatControl:BinningHorizontal, Integer: 1
+Root\ImageFormatControl:BinningVertical, Integer: 2
+Root\ImageFormatControl:BinningBitshift, Integer: 0
+Root\ImageFormatControl:BinningSaturationMode, Enum: NoSatInd
+Root\ImageFormatControl:PixelFormat, Enum: Mono12Packed
+Root\ImageFormatControl:TestPattern, Enum: Off
+Root\AcquisitionControl:AcquisitionMode, Enum: Continuous
+Root\AcquisitionControl:AcquisitionStart, {Not Readable}
+Root\AcquisitionControl:AcquisitionStop, {Not Readable}
+Root\AcquisitionControl:AcquisitionFrameCount, Integer: 1
+Root\AcquisitionControl:AcquisitionBurstFrameCount, Integer: 1
+Root\AcquisitionControl:EnAcquisitionFrameRate, Boolean: TRUE
+Root\AcquisitionControl:AcquisitionFrameTime, Float: 16666.67578125
+Root\AcquisitionControl:AcquisitionFrameRate, Float: 59.999969482421875
+Root\AcquisitionControl:AcquisitionFrameRateMax, Float: 99.18174743652344
+Root\AcquisitionControl:AcquisitionStatusSelector, Enum: AcquisitionTriggerWait
+Root\AcquisitionControl:AcquisitionStatus, Boolean: FALSE
+Root\AcquisitionControl:AcquisitionStatus_Update, {Not Readable}
+Root\AcquisitionControl:TriggerSelector, Enum: FrameStart
+Root\AcquisitionControl:TriggerMode, Enum: Off
+Root\AcquisitionControl:TriggerSoftware, {Not Readable}
+Root\AcquisitionControl:TriggerSource, Enum: Line0
+Root\AcquisitionControl:TriggerActivation, Enum: RisingEdge
+Root\AcquisitionControl:TriggerDelay, Float: 0.0
+Root\AcquisitionControl:TriggerDivider, Integer: 1
+Root\AcquisitionControl:ExposureMode, Enum: Timed
+Root\AcquisitionControl:ExposureTime, Float: 10000.0
+Root\AcquisitionControl:Trigger_Interleave, Boolean: TRUE
+Root\AnalogControl:GainSelector, Enum: DigitalAll
+Root\AnalogControl:Gain, Float: 1.0
+Root\AnalogControl:BlackLevelSelector, Enum: All
+Root\AnalogControl:BlackLevel, Float: 102.0
+Root\DigitalIOControl:LineSelector, Enum: LineOut0
+Root\DigitalIOControl:LineMode, Enum: Output
+Root\DigitalIOControl:LineInverter, Boolean: FALSE
+Root\DigitalIOControl:LineStatus, Boolean: FALSE
+Root\DigitalIOControl:LineSource, Enum: Off
+Root\DigitalIOControl:UserOutputSelector, Enum: UserOutput0
+Root\DigitalIOControl:UserOutputValue, Boolean: FALSE
+Root\CounterAndTimerControl:CounterSelector, Enum: Counter0
+Root\CounterAndTimerControl:CounterEventSource, Enum: FrameStart
+Root\CounterAndTimerControl:CounterEventActivation, Enum: RisingEdge
+Root\CounterAndTimerControl:CounterResetSource, Enum: Off
+Root\CounterAndTimerControl:CounterResetActivation, Enum: RisingEdge
+Root\CounterAndTimerControl:CounterReset, {Not Readable}
+Root\CounterAndTimerControl:CounterUpdate, {Not Readable}
+Root\CounterAndTimerControl:CounterVaalue, Integer: 221
+Root\CounterAndTimerControl:CounterStartValue, Integer: 0
+Root\CounterAndTimerControl:CounterValueAtReset, Integer: 497
+Root\CounterAndTimerControl:CounterDuration, Integer: 0
+Root\CounterAndTimerControl:CounterStatus, Enum: CounterActive
+Root\CounterAndTimerControl:CounterTriggerSource, Enum: Off
+Root\CounterAndTimerControl:CounterTriggerActivation, Enum: RisingEdge
+Root\CounterAndTimerControl:CounterTimeStampTickValue, Float: 0.0
+Root\CounterAndTimerControl:CounterAcquisitionStartReset, Boolean: TRUE
+Root\CounterAndTimerControl:TimerSelector, Enum: Timer0
+Root\CounterAndTimerControl:TimerDuration, Float: 1000.0
+Root\CounterAndTimerControl:TimerDelay, Float: 0.0
+Root\CounterAndTimerControl:TimerReset, {Not Readable}
+Root\CounterAndTimerControl:TimerUpdate, {Not Readable}
+Root\CounterAndTimerControl:TimerValue, Float: 1000.0
+Root\CounterAndTimerControl:TimerStartValue, Float: 0.0
+Root\CounterAndTimerControl:TimerStatus, Enum: TimerCompleted
+Root\CounterAndTimerControl:TimerTriggerSource, Enum: ExposureStart
+Root\CounterAndTimerControl:TimerTriggerActivation, Enum: RisingEdge
+Root\SoftwareSignalControl:SoftwareSignalSelector, Enum: SoftwareSignal0
+Root\SoftwareSignalControl:SoftwareSignalPulse, {Not Readable}
+Root\UserSetControl:UserSetLoad, {Not Readable}
+Root\UserSetControl:UserSetSave, {Not Readable}
+Root\UserSetControl:CameraHeadFactoryReset, {Not Readable}
+Root\TransportLayerControl:PayloadSize, Integer: 344064
+Root\TransportLayerControl\GigEVision:GevVersionMajor, Integer: 1
+Root\TransportLayerControl\GigEVision:GevVersionMinor, Integer: 2
+Root\TransportLayerControl\GigEVision:GevSupportedIPConfigurationLLA, Boolean: TRUE
+Root\TransportLayerControl\GigEVision:GevSupportedIPConfigurationDHCP, Boolean: TRUE
+Root\TransportLayerControl\GigEVision:GevSupportedIPConfigurationPersistentIP, Boolean: TRUE
+Root\TransportLayerControl\GigEVision:GevLinkSpeed, Integer: 1000
+Root\TransportLayerControl\GigEVision:GevMACAddress, Integer: 124214341276062
+Root\TransportLayerControl\GigEVision:GevCurrentIPConfigurationLLA, Boolean: TRUE
+Root\TransportLayerControl\GigEVision:GevCurrentIPConfigurationDHCP, Boolean: TRUE
+Root\TransportLayerControl\GigEVision:GevCurrentIPConfigurationPersistentIP, Boolean: FALSE
+Root\TransportLayerControl\GigEVision:GevCurrentIPAddress, Integer: 2852021520
+Root\TransportLayerControl\GigEVision:GevCurrentSubnetMask, Integer: 4294901760
+Root\TransportLayerControl\GigEVision:GevCurrentDefaultGateway, Integer: 0
+Root\TransportLayerControl\GigEVision:GevPersistentIPAddress, Integer: 2851996419
+Root\TransportLayerControl\GigEVision:GevPersistentSubnetMask, Integer: 4294901760
+Root\TransportLayerControl\GigEVision:GevPersistentDefaultGateway, Integer: 2098295
+Root\TransportLayerControl\GigEVision:GevMessageChannelCount, Integer: 1
+Root\TransportLayerControl\GigEVision:GevStreamChannelCount, Integer: 1
+Root\TransportLayerControl\GigEVision:GevHeartbeatTimeout, Integer: 5000
+Root\TransportLayerControl\GigEVision:GevTimestampTickFrequency, Integer: 100000000
+Root\TransportLayerControl\GigEVision:GevCCP, Enum: ControlAccess
+Root\TransportLayerControl\GigEVision:GevMCPHostPort, Integer: 61343
+Root\TransportLayerControl\GigEVision:GevMCDA, Integer: 2852021280
+Root\TransportLayerControl\GigEVision:GevMCTT, Integer: 400
+Root\TransportLayerControl\GigEVision:GevMCRC, Integer: 3
+Root\TransportLayerControl\GigEVision:GevMCSP, Integer: 49159
+Root\TransportLayerControl\GigEVision:GevSCPHostPort, Integer: 0
+Root\TransportLayerControl\GigEVision:GevSCPSFireTestPacket, Boolean: FALSE
+Root\TransportLayerControl\GigEVision:GevSCPSDoNotFragment, Boolean: TRUE
+Root\TransportLayerControl\GigEVision:GevSCPSPacketSize, Integer: 8228
+Root\TransportLayerControl\GigEVision:GevSCPD, Integer: 0
+Root\TransportLayerControl\GigEVision:GevSCDA, Integer: 0
+Root\TransportLayerControl:GevDeviceModeIsBigEndian, Integer: 1
+Root\TransportLayerControl:GevDeviceClass, Enum: Transmitter
+Root\Specim:Average_Value, Integer: 216
+Root\Specim:Average_Update, {Not Readable}
+Root\Specim\MROI:MROI_Enable, Boolean: FALSE
+Root\Specim\MROI:MROI_Index, Integer: 0
+Root\Specim\MROI:MROI_Y, Integer: 0
+Root\Specim\MROI:MROI_H, Integer: 1082
+Root\Specim\MROI:MROI_Htot, Integer: 1082
+Root\Specim\Crosshairs:Crosshairs_Enable, Boolean: FALSE
+Root\Specim\Crosshairs:Crosshairs_Value, Integer: 0
+Root\Specim\Crosshairs:Crosshairs_X, Integer: 656
+Root\Specim\Crosshairs:Crosshairs_Y, Integer: 541
+Root\Specim\DataOutput:DigitalGain, Enum: Gain1x
+Root\Specim\DataOutput:DigitalOffset, Integer: 0
+Root\Specim\LinLog:LinLog_Mode, Enum: Off
+Root\Specim\LinLog:LinLog_Value1, Integer: 0
+Root\Specim\LinLog:LinLog_Value2, Integer: 0
+Root\Specim\LinLog:LinLog_Time1, Integer: 0
+Root\Specim\LinLog:LinLog_Time2, Integer: 0
+Root\Specim\Correction:Correction_Mode, Enum: OffsetHotpixel
+Root\Specim\Correction:Correction_SetBlackRef, {Not Readable}
+Root\Specim\Correction:Correction_SetGreyRef, {Not Readable}
+Root\Specim\Correction:Correction_Calculate, {Not Readable}
+Root\Specim\Correction:Correction_SaveToFlash, {Not Readable}
+Root\Specim\Correction:Correction_HotPixelThreshold, Integer: 1008
+Root\Specim\MotorShutter:MotorShutter_PulseFwd, Integer: 200
+Root\Specim\MotorShutter:MotorShutter_PulseRev, Integer: 205
+Root\Specim\AberCorrection:AberCorrection_Enable, Boolean: TRUE
+Root\Specim\AberCorrection:AberCorrection_RowNumber, Integer: 718
+Root\Specim\AberCorrection:AberCorrection_PixelIndex, Integer: 1310
+Root\Specim\AberCorrection:AberCorrection_Data, {Not Readable}
+Root\Specim\AberCorrection:AberCorrection_Data_Read, Integer: 4294967295
+Root\Specim\AberCorrection:AberCorrection_Data_Read_cmd, {Not Readable}
+Root\Specim\AberCorrection:AberCorrection_LineBusy, Boolean: FALSE
+Root\Specim\AberCorrection:AberCorrection_SaveToFlash, {Not Readable}
+Root\Specim\AberCorrection:AberCorrection_Busy, Boolean: FALSE
+Root\Specim\AberCorrection:AberCorrection_Status, Integer: 65152
+Root\Specim\AberCorrection:AberCorrection_Update, {Not Readable}
+Root\Specim\AberCorrection:HorBorderCropping_LeftCrop, Integer: 0
+Root\Specim\AberCorrection:HorBorderCropping_RightCrop, Integer: 0
+Root\Specim\StatusLine:EnStatusLine, Boolean: FALSE
+Root\Specim\StatusLine:StatusLineCustomValue0, Integer: 3210863
+Root\Specim\StatusLine:StatusLineCustomValue1, Integer: 0
+Root\Specim\ProductionTester:BlackLevelOffset, Integer: 103
+Root\Specim\ProductionTester:BackupExpRowAreaOffset, Integer: 38
+Root\Specim\ProductionTester:BackupDACDiffOffset, Integer: 513
+Root\Specim\ProductionTester:ExpRowAreaOffset, Integer: 38
+Root\Info:CameraTypecode, Integer: 770
+Root\Info:CameraSerial, Integer: 62874
+Root\Info:CameraInterface, String: GigEVision
+Root\Info\Revisions:uCRevision, String: Rev: 1.3 build: 0
+Root\Info\Revisions:uCRevision_Major, Integer: 1
+Root\Info\Revisions:uCRevision_Minor, Integer: 3
+Root\Info\Revisions:uCRevision_Build, Integer: 0
+Root\Info\Revisions:FpgaRevision, String: Rev: 1.2 build: 4
+Root\Info\Revisions:FpgaRevision_Major, Integer: 1
+Root\Info\Revisions:FpgaRevision_Minor, Integer: 2
+Root\Info\Revisions:FpgaRevision_Build, Integer: 4
+Root\Info\Revisions:FpgaUserRevision, String: Rev: 1.1 build: 7
+Root\Info\Revisions:FpgaUserRevision_Major, Integer: 1
+Root\Info\Revisions:FpgaUserRevision_Minor, Integer: 1
+Root\Info\Revisions:FpgaUserRevision_Build, Integer: 7
+Root\Info\VoltageMonitoring:VoltageMonitoring_VccInt, Float: 0.998382568359375
+Root\Info\VoltageMonitoring:VoltageMonitoring_VccIntMin, Float: 0.996368408203125
+Root\Info\VoltageMonitoring:VoltageMonitoring_VccIntMax, Float: 1.0008544921875
+Root\Info\VoltageMonitoring:VoltageMonitoring_VccAux, Float: 1.7964019775390625
+Root\Info\VoltageMonitoring:VoltageMonitoring_VccAuxMin, Float: 1.79461669921875
+Root\Info\VoltageMonitoring:VoltageMonitoring_VccAuxMax, Float: 1.799102783203125
+Root\Info\VoltageMonitoring:VoltageMonitoring_Update, {Not Readable}
+3. Image stream parameters display
+
+Opening stream
+Retrieving stream's parameters array
+Dumping stream's parameters array content
+
+Array has 95 parameters
+Root\Configuration:FirstPacketTimeout, Integer: 0
+Root\Configuration:InterPacketTimeout, Integer: 0
+Root\Configuration:RequestTimeout, Integer: 1000
+Root\Configuration:PreemptiveResendTimeout, Integer: 0
+Root\Configuration:MaximumPendingResends, Integer: 45
+Root\Configuration:RequestMissingPackets, Boolean: TRUE
+Root\Configuration:LatencyLevel, {Not Available}
+Root\Configuration:AutoResetOnLackOfResources, Integer: 1
+Root\Configuration:MaximumResendRequestRetryByPacket, Integer: 3
+Root\Configuration:MaximumResendGroupSize, Integer: 15
+Root\Configuration:ResendRequestTimeout, Integer: 5000
+Root\Configuration:ResendDelay, Integer: 0
+Root\Configuration:ResetOnIdle, Integer: 200
+Root\Configuration:EnableMissingPacketsList, Boolean: FALSE
+Root\Configuration:MaximumPreQueuedBuffers, {Not Available}
+Root\Configuration:OnlyStartOnFirstPacket, Boolean: TRUE
+Root\Configuration:ExtraBlockCompletion, Enum: Disabled
+Root\Connection:Transport, Enum: UDP
+Root\Connection:DataPort, Integer: 61347
+Root\Connection:MulticastIPAddress, Integer: 0
+Root\Connection:LocalIPAddress, Integer: 2852021280
+Root\Connection:DeviceIPAddress, Integer: 2852021520
+Root\Connection:Channel, Integer: 0
+Root\Statistics\General:Reset, {Not Readable}
+Root\Statistics\General:BitsCount, Integer: 0
+Root\Statistics\General:BytesCount, Integer: 0
+Root\Statistics\General:BlockCount, Integer: 0
+Root\Statistics\General:SamplingTime, Integer: 0
+Root\Statistics\General:AcquisitionRate, Float: 0.0
+Root\Statistics\General:AcquisitionRateAverage, Float: 0.0
+Root\Statistics\General:Bandwidth, Float: 0.0
+Root\Statistics\General:BandwidthAverage, Float: 0.0
+Root\Statistics\General:TimeoutCountedAsError, Boolean: FALSE
+Root\Statistics\General:AbortCountedAsError, Boolean: FALSE
+Root\Statistics\General:ErrorCount, Integer: 0
+Root\Statistics\General:LastError, Enum: None
+Root\Statistics\General:TimestampSourceEffective, Enum: Hardware
+Root\Statistics\General:TimestampSourcePreferred, Enum: Software
+Root\Statistics\Counters\DataReceiver:PacketsRecovered, Integer: 0
+Root\Statistics\Counters\DataReceiver:PacketsRecoveredSingleResend, Integer: 0
+Root\Statistics\Counters\DataReceiver:UnexpectedResend, Integer: 0
+Root\Statistics\Counters\DataReceiver:ResendGroupRequested, Integer: 0
+Root\Statistics\Counters\DataReceiver:ResendPacketRequested, Integer: 0
+Root\Statistics\Counters\DataReceiver:LostPacket, Integer: 0
+Root\Statistics\Counters\DataReceiver:IgnoredPacket, Integer: 0
+Root\Statistics\Counters\DataReceiver:RedundantPacket, Integer: 0
+Root\Statistics\Counters\DataReceiver:PacketOutOfOrder, Integer: 0
+Root\Statistics\Counters\Status:DataOverrun, Integer: 0
+Root\Statistics\Counters\Status:PartialLineMissing, {Not Available}
+Root\Statistics\Counters\Status:FullLineMissing, {Not Available}
+Root\Statistics\Counters\Status:BlocksDropped, {Not Available}
+Root\Statistics\Counters\Status:EOFByLineCount, {Not Available}
+Root\Statistics\Counters\Status:InterlacedEven, {Not Available}
+Root\Statistics\Counters\Status:InterlacedOdd, {Not Available}
+Root\Statistics\Counters\Status:LocalProblem, Integer: 0
+Root\Statistics\Counters\Status:Unknown, Integer: 0
+Root\Statistics\Counters\Status:PacketUnavailable, Integer: 0
+Root\Statistics\Counters\Errors:ResultImageError, Integer: 0
+Root\Statistics\Counters\Errors:ResultMissingPackets, Integer: 0
+Root\Statistics\Counters\Errors:ResultBufferTooSmall, Integer: 0
+Root\Statistics\Counters\Errors:ResultTimeout, Integer: 0
+Root\Statistics\Counters\Errors:ResultAborted, Integer: 0
+Root\Statistics\Counters\Errors:ResultAutoAborted, Integer: 0
+Root\Statistics\Counters\Errors:ResultStateError, Integer: 0
+Root\Statistics\Counters\Errors:ResultInvalidDataFormat, Integer: 0
+Root\Statistics\Counters\Errors:ResultTooManyResends, Integer: 0
+Root\Statistics\Counters\Errors:ResultTooManyConsecutiveResends, Integer: 0
+Root\Statistics\Counters\Errors:ResultResendsFailure, Integer: 0
+Root\Statistics\Counters\Errors:ResultNotInitialized, Integer: 0
+Root\Statistics\Counters\Errors:ResultNoLicense, Integer: 0
+Root\Statistics\Counters\PayloadTypes:ImageCount, Integer: 0
+Root\Statistics\Counters\PayloadTypes:RawDataCount, Integer: 0
+Root\Statistics\Counters\PayloadTypes:FileCount, Integer: 0
+Root\Statistics\Counters\PayloadTypes:ChunkDataCount, Integer: 0
+Root\Statistics\Counters\PayloadTypes:ExtendedChunkDataCount, Integer: 0
+Root\Statistics\Counters\PayloadTypes:JPEGCount, Integer: 0
+Root\Statistics\Counters\PayloadTypes:JPEG2000Count, Integer: 0
+Root\Statistics\Counters\PayloadTypes:H264Count, Integer: 0
+Root\Statistics\Counters\PayloadTypes:MultiZoneImageCount, Integer: 0
+Root\Statistics\Counters\PayloadTypes:MultiPartCount, Integer: 0
+Root\Statistics\Counters\PayloadTypes:UnknownCount, Integer: 0
+Root\Statistics\Counters\PayloadTypes:DeviceSpecificCount, Integer: 0
+Root\Statistics\Counters:BlockIDsMissing, Integer: 0
+Root\Statistics\Counters:PipelineBlocksDropped, Integer: 0
+Press any key to exit
